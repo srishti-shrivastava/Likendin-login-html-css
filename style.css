@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgba(231, 225, 225, 0.952)
+    background-color:rgba(231, 225, 225, 0.952);
+    zoom:0.94;
 }
 
 .black{
@@ -149,7 +150,8 @@ footer{
     width:100%;
     height:10vh;
     box-shadow:  0 4px 8px 0 rgba(0,0,0,0.5),0 6px 20px 0px rgba(0,0,0,0.5);
-    margin-top: 60px;
+    margin-top: 50px;
+    
 }
 
 footer ul{
@@ -165,7 +167,7 @@ footer ul li{
     list-style: none;
     padding:1px;
     color:#000;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .footer-black{
