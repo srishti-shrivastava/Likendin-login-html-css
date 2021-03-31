@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgba(240, 233, 233, 0.534)
+    background-color:rgba(231, 225, 225, 0.952)
 }
 
 .black{
@@ -25,19 +25,23 @@
     flex-direction: column;
     position: absolute;
     top:10%;
-    margin-top: 80px  !important;
+    margin-top: -40px  !important;
     padding-left: 80px !important;
     padding-right: 80px !important;
     width:600px !important;
+    padding-top: 40px;
+    border-radius: 20px;
     background-color: #fff !important;
-    height:500px !important;
+    height:600px !important;
 }
 
-.middle-part h3{
+ h3{
+     margin-top:50px !important ;
     text-align: center;
-    font-size:24px;
+    font-size:50px;
     font-weight: 900;
     color: #0077b0;
+    
 }
 
 .in{
@@ -49,7 +53,7 @@
     text-align: center;
     font-weight: 600;
     margin:25px 0;
-    font-size: 1.3rem;
+    font-size: 3rem;
     word-spacing: 2px;
     line-height: 1.5;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
@@ -63,7 +67,7 @@
     line-height: 1.5;
     color: rgba(0,0,0,0.9);
     box-sizing: border-box;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     border: 0;
     font-size: 12px;
@@ -78,10 +82,14 @@
 
 .input__input {
     font-size: 1.4rem;
+    margin-top: -15px;
     line-height: 1.42857;
+    margin-bottom: 10px;
     font-weight: 400;
+    background-color: #fff;
     color: rgba(0,0,0,0.9);
-    height: 32px;
+    height: 45px;
+    border-radius: 5px;
     width: 100%;
     padding: 0 8px 0 8px;
 }
@@ -102,8 +110,9 @@
     font-weight: 400;
     color: rgba(0,0,0,0.6);
     text-align: center;
+    font-size: 15px;
     width: 100%;
-    margin: 12px 0 0;
+    margin: 12px 0 10px;
 }
 
 .submit-button{
@@ -128,13 +137,12 @@
     transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
     vertical-align: middle;
     z-index: 0;
-    padding: 0 16px 0 16px;
+    padding: 10px 16px 10px 16px;
     width: 100%;
     margin-top: 16px;
     font-weight: 400;
     background-color: #0a66c2;
-    height: 48px;
-    border-radius: 24px;
+    border-radius: 30px;
 }
 
 footer{
@@ -169,4 +177,9 @@ footer ul li{
     color: #fff;
     background-color: #000;
     font-size: 15px;
+}
+label{
+    font-size: 20px !important;
+    padding-bottom: 20px !important;
+    background-color: #fff;
 }
